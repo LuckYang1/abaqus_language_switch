@@ -1,6 +1,6 @@
 # Abaqus语言切换工具
 
-[![版本](https://img.shields.io/badge/版本-1.0.0-blue.svg)](https://github.com/yourusername/abaqus_language_switch)
+[![版本](https://img.shields.io/badge/版本-1.0.0-blue.svg)](https://github.com/LuckYang1/abaqus_language_switch)
 [![Abaqus](https://img.shields.io/badge/Abaqus-2020-orange.svg)](https://www.3ds.com/products-services/simulia/products/abaqus/)
 [![许可证](https://img.shields.io/badge/许可证-MIT-green.svg)](LICENSE)
 
@@ -17,13 +17,13 @@
 如果您已安装Git，可以通过以下命令克隆仓库：
 
 ```
-git clone https://github.com/yourusername/abaqus_language_switch.git
+git clone https://github.com/LuckYang1/abaqus_language_switch.git
 cd abaqus_language_switch
 ```
 
 ### 直接下载
 
-您也可以通过[GitHub下载页面](https://github.com/yourusername/abaqus_language_switch/archive/refs/heads/main.zip)直接下载ZIP文件。
+您也可以通过[GitHub下载页面](https://github.com/LuckYang1/abaqus_language_switch/archive/refs/heads/main.zip)直接下载ZIP文件。
 
 ## 直接运行源代码
 

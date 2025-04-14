@@ -1,6 +1,6 @@
 # Abaqus Language Switcher
 
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/yourusername/abaqus_language_switch)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/LuckYang1/abaqus_language_switch)
 [![Abaqus](https://img.shields.io/badge/Abaqus-2020-orange.svg)](https://www.3ds.com/products-services/simulia/products/abaqus/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -17,13 +17,13 @@ This is a simple tool for switching the Abaqus interface language (Chinese/Engli
 If you have Git installed, you can clone the repository with the following commands:
 
 ```
-git clone https://github.com/yourusername/abaqus_language_switch.git
+git clone https://github.com/LuckYang1/abaqus_language_switch.git
 cd abaqus_language_switch
 ```
 
 ### Direct Download
 
-You can also download the code directly as a ZIP file from the [GitHub download page](https://github.com/yourusername/abaqus_language_switch/archive/refs/heads/main.zip).
+You can also download the code directly as a ZIP file from the [GitHub download page](https://github.com/LuckYang1/abaqus_language_switch/archive/refs/heads/main.zip).
 
 ## Running the Source Code Directly
 

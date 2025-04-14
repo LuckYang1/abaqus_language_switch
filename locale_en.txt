@@ -1,0 +1,101 @@
+###
+### This file contains configuration information for Abaqus/CAE
+### language settings.
+###
+
+####################################################################
+# This section describes what language and what encoding Abaqus/CAE 
+# should use for a given system locale name.
+# Note: Chinese localization is currently supported on the Windows
+#       platforms only.  Therefore, all zh_CN* encodings are still
+#       mapped to en_US.
+
+[Alias]
+
+ja_JP.UTF-8 = ja_JP
+ja_JP.utf-8 = ja_JP
+ja_JP.UTF8 = ja_JP
+ja_JP.utf8 = ja_JP
+ja_JP.SJIS = ja_JP
+ja_JP.sjis = ja_JP
+Japanese_Japan.932 = ja_JP
+Ja_JP = ja_JP
+ja_JP.EUC = ja_JP
+ja_JP.eucJP = ja_JP
+ja_JP.eucjp = ja_JP
+ja_JP = ja_JP
+ja = ja_JP
+
+en_US.UTF-8 = en_US
+en_US.utf-8 = en_US
+en_US.UTF8 = en_US
+en_US.utf8 = en_US
+en_US.iso88591 = en_US
+English_United States.1252 = en_US
+en_US.ISO8859-1 = en_US
+
+zh_CN.UTF-8 = en_US
+zh_CN.utf-8 = en_US
+zh_CN.UTF8 = en_US
+zh_CN.utf8 = en_US
+zh_CN = en_US
+zh_CN.gb18030 = en_US
+zh_CN.gbk = en_US
+Chinese_People's Republic of China.936 = zh_CN
+Chinese (Simplified)_People's Republic of China.936 = zh_CN
+####################################################################
+# This section describes whether the local language and encoding
+# should be used by default (1 = yes; 0 = no).  This flag is useful
+# because for some regions it may still be preferred that Abaqus/CAE
+# uses English by default and that the local language is used only
+# upon request. 
+
+[Default]
+
+ja_JP = 1
+en_US = 1
+zh_CN = 0
+
+###################################################################
+# This section specifies the location of dictionaries with
+# translations for the given choice of language and encoding.
+# Dictionaries are searched under the ABAQUS installation
+# directory and under any directories listed in the HKS_DICT_DIR
+# environment variable. The dictionary specified for 'C'
+# will be used by default.
+
+[Dictionary]
+
+ja_JP = Configuration/Xresources/ja_JP/ja_JP_Dict.py
+en_US = Configuration/Xresources/en_US/en_US_Dict.py
+zh_CN = Configuration/Xresources/zh_CN/zh_CN_Dict.py
+C = Configuration/Xresources/en_US/en_US_Dict.py
+
+###################################################################
+# This section specifies the location of dictionaries used in Python
+# with translations for the given choice of language and encoding.
+# Dictionaries are searched under the ABAQUS installation
+# directory and under any directories listed in the HKS_DICT_DIR
+# environment variable. The dictionary specified for 'C'
+# will be used by default.
+
+[Python Dictionary]
+
+ja_JP = Configuration/Xresources/ja_JP/ja_JP_PyDict.py
+en_US = Configuration/Xresources/en_US/en_US_PyDict.py
+zh_CN = Configuration/Xresources/zh_CN/zh_CN_PyDict.py
+C = Configuration/Xresources/en_US/en_US_PyDict.py
+
+
+###################################################################
+# This section lists locales that Abaqus/CAE will try before
+# falling back to the 'C' locale. Locales with specific encoding
+# are preferable to 'C' because encoding for 'C' varies among
+# platforms. Locales listed here must be supported, i.e. they
+# must be listed in the [Alias] section.
+
+[Fallback]
+
+English_United States.1252
+en_US.ISO8859-1
+en_US.iso88591

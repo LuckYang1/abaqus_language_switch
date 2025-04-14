@@ -7,25 +7,17 @@
 </p>
 
 <div align="center">
-  <table style="border: none; border-collapse: collapse; margin: 0 auto;">
-    <tr style="border: none;">
-      <td style="border: none; padding: 0 5px;">
-        <a href="https://github.com/LuckYang1/abaqus_language_switch/releases/tag/v1.0.0">
-          <img src="https://img.shields.io/badge/版本-1.0.0-blue.svg" alt="版本">
-        </a>
-      </td>
-      <td style="border: none; padding: 0 5px;">
-        <a href="https://www.3ds.com/products-services/simulia/products/abaqus/">
-          <img src="https://img.shields.io/badge/Abaqus-2016~2025-orange.svg?logo=dassaultsystemes" alt="Abaqus">
-        </a>
-      </td>
-      <td style="border: none; padding: 0 5px;">
-        <a href="LICENSE">
-          <img src="https://img.shields.io/badge/许可证-MIT-green.svg" alt="许可证">
-        </a>
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/LuckYang1/abaqus_language_switch/releases/tag/v1.0.0" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/版本-1.0.0-blue.svg" alt="版本">
+  </a>
+  
+  <a href="https://www.3ds.com/products-services/simulia/products/abaqus/" style="text-decoration: none; margin: 0 10px;">
+    <img src="https://img.shields.io/badge/Abaqus-2016~2025-orange.svg?logo=dassaultsystemes" alt="Abaqus">
+  </a>
+  
+  <a href="LICENSE" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/许可证-MIT-green.svg" alt="许可证">
+  </a>
 </div>
 
 > For English version of this document, please click [here](README_EN.md)

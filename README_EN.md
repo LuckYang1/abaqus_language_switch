@@ -1,5 +1,9 @@
 # Abaqus Language Switcher
 
+<p align="center">
+  <img src="abaqus_language.png" alt="Abaqus Language Switcher" width="120">
+</p>
+
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/LuckYang1/abaqus_language_switch/releases/tag/v1.0.0)
 [![Abaqus](https://img.shields.io/badge/Abaqus-2016~2025-orange.svg?logo=dassaultsystemes)](https://www.3ds.com/products-services/simulia/products/abaqus/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)

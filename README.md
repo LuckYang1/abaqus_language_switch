@@ -10,6 +10,21 @@
 
 这是一个用于切换Abaqus界面语言（中英文）的小工具，无需修改系统区域设置，便捷快速。
 
+## 获取代码
+
+### 使用Git克隆
+
+如果您已安装Git，可以通过以下命令克隆仓库：
+
+```
+git clone https://github.com/yourusername/abaqus_language_switch.git
+cd abaqus_language_switch
+```
+
+### 直接下载
+
+您也可以通过[GitHub下载页面](https://github.com/yourusername/abaqus_language_switch/archive/refs/heads/main.zip)直接下载ZIP文件。
+
 ## 直接运行源代码
 
 1. 确保您的系统安装了Python 3.6或更高版本
@@ -21,58 +36,6 @@
 4. 按照界面提示操作即可
 
 注意：直接运行Python脚本同样需要管理员权限，因为需要修改Abaqus安装目录下的配置文件。
-
-## 打包为可执行文件
-
-### 前提条件
-
-1. 电脑上已安装Python 3.6或更高版本
-2. 网络连接正常（用于安装打包工具）
-
-### 打包步骤
-
-1. 首先安装PyInstaller打包工具:
-   ```
-   pip install pyinstaller
-   ```
-
-2. 打开命令提示符(cmd)，切换到脚本所在目录:
-   ```
-   cd 文件所在路径
-   ```
-
-3. 执行打包命令:
-   
-   基本打包命令:
-   ```
-   pyinstaller --onefile --console abaqus_language_switch_exe.py
-   ```
-   
-   带自定义图标的打包命令:
-   ```
-   pyinstaller --onefile --console --icon=icon.ico abaqus_language_switch_exe.py
-   ```
-   如需使用自定义图标，请确保在脚本同目录下有`icon.ico`文件，或修改上述命令中的图标路径。
-
-4. 等待打包完成，这可能需要几分钟时间
-
-5. 打包完成后，在当前目录下的`dist`文件夹中可以找到生成的exe文件
-   (`dist/abaqus_language_switch_exe.exe`)
-
-6. 将生成的exe文件复制到任意位置即可使用
-
-## 使用说明
-
-1. 由于程序需要修改系统文件，请右键点击exe文件或Python脚本，选择"以管理员身份运行"
-
-2. 首次运行时，程序会自动创建Abaqus配置文件的备份
-
-3. 按照界面提示选择相应操作:
-   - 选项1: 切换到中文模式
-   - 选项2: 切换到英文模式
-   - 选项3: 恢复初始备份
-   - 选项4: 管理配置文件路径
-   - 选项5: 退出程序
 
 ## 关于配置文件
 
@@ -105,6 +68,55 @@ C:\Users\你的用户名\AbaqusLangSwitcher\abaqus_lang_settings.json
 - `path_list`：用户添加的所有Abaqus安装路径，包含路径名称、完整路径和添加时间
 
 当添加或切换Abaqus安装路径时，工具会自动更新此文件。如果您有多个Abaqus版本或安装位置，此功能允许您在不同配置之间轻松切换。
+
+## 可打包为可执行文件
+
+### 前提条件
+
+1. 电脑上已安装Python 3.6或更高版本
+2. 网络连接正常（用于安装打包工具）
+
+### 打包步骤
+
+1. 首先安装PyInstaller打包工具:
+   ```
+   pip install pyinstaller
+   ```
+
+2. 打开命令提示符(cmd)，切换到脚本所在目录:
+   ```
+   cd 文件所在路径
+   ```
+
+3. 基本打包命令:
+   ```
+   pyinstaller --onefile --console abaqus_language_switch_exe.py
+   ```
+   带自定义图标的打包命令:
+   ```
+   pyinstaller --onefile --console --icon=icon.ico abaqus_language_switch_exe.py
+   ```
+   如需使用自定义图标，请确保在脚本同目录下有`icon.ico`文件，或修改上述命令中的图标路径。
+
+4. 等待打包完成，这可能需要几分钟时间
+
+5. 打包完成后，在当前目录下的`dist`文件夹中可以找到生成的exe文件
+   (`dist/abaqus_language_switch_exe.exe`)
+
+6. 将生成的exe文件复制到任意位置即可使用
+
+## 使用说明
+
+1. 由于程序需要修改系统文件，请右键点击exe文件或Python脚本，选择"以管理员身份运行"
+
+2. 首次运行时，程序会自动创建Abaqus配置文件的备份
+
+3. 按照界面提示选择相应操作:
+   - 选项1: 切换到中文模式
+   - 选项2: 切换到英文模式
+   - 选项3: 恢复初始备份
+   - 选项4: 管理配置文件路径
+   - 选项5: 退出程序
 
 ## 注意事项
 

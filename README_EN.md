@@ -10,6 +10,21 @@
 
 This is a simple tool for switching the Abaqus interface language (Chinese/English) without modifying system regional settings, providing a quick and convenient solution.
 
+## Getting the Code
+
+### Using Git Clone
+
+If you have Git installed, you can clone the repository with the following commands:
+
+```
+git clone https://github.com/yourusername/abaqus_language_switch.git
+cd abaqus_language_switch
+```
+
+### Direct Download
+
+You can also download the code directly as a ZIP file from the [GitHub download page](https://github.com/yourusername/abaqus_language_switch/archive/refs/heads/main.zip).
+
 ## Running the Source Code Directly
 
 1. Make sure you have Python 3.6 or higher installed on your system
@@ -21,6 +36,38 @@ This is a simple tool for switching the Abaqus interface language (Chinese/Engli
 4. Follow the on-screen instructions to operate
 
 Note: Running the Python script directly still requires administrator privileges because it needs to modify the configuration file in the Abaqus installation directory.
+
+## About the Configuration Files
+
+### locale.txt
+
+This tool mainly modifies the Abaqus language configuration file `locale.txt`. This file is the original language configuration file for Abaqus, usually located at:
+
+```
+C:\SIMULIA\EstProducts\2021\win_b64\SMA\Configuration\locale.txt
+```
+
+The path may vary slightly depending on the Abaqus version. This file contains configuration information for the Abaqus interface language, mainly controlling the display language of the software (English, Chinese, or Japanese).
+
+The tool achieves language switching by modifying the following settings in the configuration file:
+- `[Alias]` section: Defines the mapping relationship between system locale settings and Abaqus language
+- `[Default]` section: Sets whether to use the local language by default (`1 = yes`, `0 = no`)
+
+The `locale_en.txt` file included in this project is a reference configuration file for English mode, which can be used to restore the English interface.
+
+### abaqus_lang_settings.json
+
+The tool creates and uses a settings file `abaqus_lang_settings.json` in the user's directory, located at:
+
+```
+C:\Users\your_username\AbaqusLangSwitcher\abaqus_lang_settings.json
+```
+
+This file stores the following information:
+- `current_path`: The current Abaqus configuration file path being used
+- `path_list`: All Abaqus installation paths added by the user, including path name, full path, and time added
+
+The tool automatically updates this file when adding or switching Abaqus installation paths. If you have multiple Abaqus versions or installation locations, this feature allows you to easily switch between different configurations.
 
 ## Packaging as an Executable
 
@@ -73,38 +120,6 @@ Note: Running the Python script directly still requires administrator privileges
    - Option 3: Restore initial backup
    - Option 4: Manage configuration file paths
    - Option 5: Exit program
-
-## About the Configuration Files
-
-### locale.txt
-
-This tool mainly modifies the Abaqus language configuration file `locale.txt`. This file is the original language configuration file for Abaqus, usually located at:
-
-```
-C:\SIMULIA\EstProducts\2021\win_b64\SMA\Configuration\locale.txt
-```
-
-The path may vary slightly depending on the Abaqus version. This file contains configuration information for the Abaqus interface language, mainly controlling the display language of the software (English, Chinese, or Japanese).
-
-The tool achieves language switching by modifying the following settings in the configuration file:
-- `[Alias]` section: Defines the mapping relationship between system locale settings and Abaqus language
-- `[Default]` section: Sets whether to use the local language by default (`1 = yes`, `0 = no`)
-
-The `locale_en.txt` file included in this project is a reference configuration file for English mode, which can be used to restore the English interface.
-
-### abaqus_lang_settings.json
-
-The tool creates and uses a settings file `abaqus_lang_settings.json` in the user's directory, located at:
-
-```
-C:\Users\your_username\AbaqusLangSwitcher\abaqus_lang_settings.json
-```
-
-This file stores the following information:
-- `current_path`: The current Abaqus configuration file path being used
-- `path_list`: All Abaqus installation paths added by the user, including path name, full path, and time added
-
-The tool automatically updates this file when adding or switching Abaqus installation paths. If you have multiple Abaqus versions or installation locations, this feature allows you to easily switch between different configurations.
 
 ## Notes
 

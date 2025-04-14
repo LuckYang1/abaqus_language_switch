@@ -7,21 +7,25 @@
 </p>
 
 <p align="center">
-  <span>
-    <a href="https://github.com/LuckYang1/abaqus_language_switch/releases/tag/v1.0.0">
-      <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version">
-    </a>
-  </span>
-  <span>
-    <a href="https://www.3ds.com/products-services/simulia/products/abaqus/">
-      <img src="https://img.shields.io/badge/Abaqus-2016~2025-orange.svg?logo=dassaultsystemes" alt="Abaqus">
-    </a>
-  </span>
-  <span>
-    <a href="LICENSE">
-      <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-    </a>
-  </span>
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/LuckYang1/abaqus_language_switch/releases/tag/v1.0.0">
+        <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version">
+      </a>
+    </td>
+    <td>
+      <a href="https://www.3ds.com/products-services/simulia/products/abaqus/">
+        <img src="https://img.shields.io/badge/Abaqus-2016~2025-orange.svg?logo=dassaultsystemes" alt="Abaqus">
+      </a>
+    </td>
+    <td>
+      <a href="LICENSE">
+        <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+      </a>
+    </td>
+  </tr>
+</table>
 </p>
 
 > 如需查看本文档的中文版本，请点击[这里](README.md)

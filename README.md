@@ -10,15 +10,9 @@
   <a href="https://github.com/LuckYang1/abaqus_language_switch/releases/tag/v1.0.0">
     <img src="https://img.shields.io/badge/版本-1.0.0-blue.svg" alt="版本">
   </a>
-</p>
-
-<p align="center">
   <a href="https://www.3ds.com/products-services/simulia/products/abaqus/">
     <img src="https://img.shields.io/badge/Abaqus-2016~2025-orange.svg?logo=dassaultsystemes" alt="Abaqus">
   </a>
-</p>
-
-<p align="center">
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/许可证-MIT-green.svg" alt="许可证">
   </a>

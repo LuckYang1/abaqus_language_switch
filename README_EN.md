@@ -1,7 +1,9 @@
 # Abaqus Language Switcher
 
 <p align="center">
-  <img src="abaqus_language.png" alt="Abaqus Language Switcher" width="120">
+  <a href="https://github.com/LuckYang1/abaqus_language_switch/releases/latest">
+    <img src="abaqus_language.png" alt="Abaqus Language Switcher" width="120">
+  </a>
 </p>
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/LuckYang1/abaqus_language_switch/releases/tag/v1.0.0)

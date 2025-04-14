@@ -1,6 +1,6 @@
 # Abaqus语言切换工具
 
-[![版本](https://img.shields.io/badge/版本-1.0.0-blue.svg)](https://github.com/LuckYang1/abaqus_language_switch)
+[![版本](https://img.shields.io/badge/版本-1.0.0-blue.svg)](https://github.com/LuckYang1/abaqus_language_switch/releases/tag/v1.0.0)
 [![Abaqus](https://img.shields.io/badge/Abaqus-2020-orange.svg)](https://www.3ds.com/products-services/simulia/products/abaqus/)
 [![许可证](https://img.shields.io/badge/许可证-MIT-green.svg)](LICENSE)
 
@@ -9,6 +9,13 @@
 ## 项目介绍
 
 这是一个用于切换Abaqus界面语言（中英文）的小工具，无需修改系统区域设置，便捷快速。
+
+## 下载
+
+您可以通过以下方式获取本工具：
+
+- **[下载已编译的可执行文件](https://github.com/LuckYang1/abaqus_language_switch/releases/latest)** - 无需Python环境，直接运行
+- 或者按照下方说明获取源代码并自行运行/编译
 
 ## 获取代码
 

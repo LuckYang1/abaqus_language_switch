@@ -1,6 +1,6 @@
 # Abaqus Language Switcher
 
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/LuckYang1/abaqus_language_switch)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/LuckYang1/abaqus_language_switch/releases/tag/v1.0.0)
 [![Abaqus](https://img.shields.io/badge/Abaqus-2020-orange.svg)](https://www.3ds.com/products-services/simulia/products/abaqus/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -9,6 +9,13 @@
 ## Introduction
 
 This is a simple tool for switching the Abaqus interface language (Chinese/English) without modifying system regional settings, providing a quick and convenient solution.
+
+## Download
+
+You can obtain this tool in the following ways:
+
+- **[Download the compiled executable](https://github.com/LuckYang1/abaqus_language_switch/releases/latest)** - Run directly without Python environment
+- Or follow the instructions below to get the source code and run/compile it yourself
 
 ## Getting the Code
 

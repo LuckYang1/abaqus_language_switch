@@ -1,7 +1,7 @@
 # Abaqus语言切换工具
 
 [![版本](https://img.shields.io/badge/版本-1.0.0-blue.svg)](https://github.com/LuckYang1/abaqus_language_switch/releases/tag/v1.0.0)
-[![Abaqus](https://img.shields.io/badge/Abaqus-2016~2025-orange.svg)](https://www.3ds.com/products-services/simulia/products/abaqus/)
+[![Abaqus](https://img.shields.io/badge/Abaqus-2016~2025-orange.svg?logo=dassaultsystemes)](https://www.3ds.com/products-services/simulia/products/abaqus/)
 [![许可证](https://img.shields.io/badge/许可证-MIT-green.svg)](LICENSE)
 
 > For English version of this document, please click [here](README_EN.md)

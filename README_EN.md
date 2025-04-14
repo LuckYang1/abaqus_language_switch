@@ -11,8 +11,7 @@
     <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version">
   </a>
   &nbsp;
-  <a href="https://www.3ds.com/products-services/simulia/products/abaqus/">
-    <img src="https://img.shields.io/badge/Abaqus-2016~2025-orange.svg?logo=dassaultsystemes" alt="Abaqus">
+  <a href="https://www.3ds.com/products-services/simulia/products/abaqus/"><img src="https://img.shields.io/badge/Abaqus-2016~2025-orange.svg?logo=dassaultsystemes" alt="Abaqus">
   </a>
   &nbsp;
   <a href="LICENSE">

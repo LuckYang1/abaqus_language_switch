@@ -4,20 +4,6 @@
 """
 Abaqus语言切换工具 (可打包为EXE版本)
 用于切换Abaqus/CAE的语言设置（中文/英文）
-
-打包命令:
-    pip install pyinstaller
-    
-    # 不带图标打包:
-    pyinstaller --onefile --console abaqus_language_switch_exe.py
-    
-    # 带图标打包:
-    pyinstaller --onefile --console --icon=icon.ico abaqus_language_switch_exe.py
-    
-    # 说明:
-    # --onefile: 打包为单个可执行文件
-    # --console: 显示控制台窗口
-    # --icon: 指定应用程序图标文件路径
 """
 
 import os
@@ -425,13 +411,7 @@ def add_new_path():
             r"D:\SIMULIA\EstProducts\2021\win_b64\SMA\Configuration\locale.txt",
             r"E:\SIMULIA\EstProducts\2021\win_b64\SMA\Configuration\locale.txt",
             r"F:\SIMULIA\EstProducts\2022\win_b64\SMA\Configuration\locale.txt",
-            r"C:\SIMULIA\EstProducts\2022\win_b64\SMA\Configuration\locale.txt",
-            r"D:\SIMULIA\EstProducts\2022\win_b64\SMA\Configuration\locale.txt",
-            r"E:\SIMULIA\EstProducts\2022\win_b64\SMA\Configuration\locale.txt",
-            r"F:\SIMULIA\EstProducts\2023\win_b64\SMA\Configuration\locale.txt",
-            r"C:\SIMULIA\EstProducts\2023\win_b64\SMA\Configuration\locale.txt",
-            r"D:\SIMULIA\EstProducts\2023\win_b64\SMA\Configuration\locale.txt",
-            r"E:\SIMULIA\EstProducts\2023\win_b64\SMA\Configuration\locale.txt",
+            r"G:\SIMULIA\EstProducts\2022\win_b64\SMA\Configuration\locale.txt",
         ]
         
         found_paths = []
